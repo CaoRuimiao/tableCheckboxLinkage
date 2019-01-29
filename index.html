@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="application/javascript" src="./js/jquery-3.2.1.js"></script>
+    <script type="application/javascript" src="./js/mine.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="./css/mine.css"/>
+</head>
+
+<body>
+<div id="content">
+    <table id="content_t">
+        <thead>
+            <tr>
+                <th><input type="checkbox" name="main_title"></th><th>操作</th><th>总数量</th><th>发货库房</th><th>收货站编号</th><th>承运商</th><th>配送级别</th><th>订单来源</th><th>收货方</th><th>收货地区</th><th>收货国家</th><th>收货省份</th><th>收货城市</th><th>收货区县</th><th>收货详址</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" class="main" name="main1"></td><td>合并并备料 &nbsp;<input type="button" class="open_close_btn" value="展开/合并"/></td><td>5</td><td>北京</td><td>1</td><td>上海顺丰</td><td>一级</td><td>销售</td><td>联想北京</td><td>联想北京</td><td>中国</td><td>北京</td><td>北京</td><td>海淀</td><td>联想西区总部</td>
+            </tr>
+            <tr>
+                <td class="inner_td" colspan="15">
+                    <table class="inner_table">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" class="item_title" name="item_title1"></th><th>出库通知单号</th><th>备件编码</th><th>备件名称</th><th>数量</th><th>序列化</th><th>库位1</th><th>库位2</th><th>库位3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" mergeId="1" name="item"></td><td>GI201801030002</td><td>DIANCHOUWAIQUAN</td><td>RAID 6 Primary-min 4 HDD's required</td><td>3</td><td>Y</td><td></td><td></td><td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" mergeId="1" name="item"></td><td>GI201801030002</td><td>DIANCHOUWAIQUAN</td><td>RAID 6 Primary-min 4 HDD's required</td><td>3</td><td>Y</td><td></td><td></td><td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="main" name="main2"></td><td>合并并备料 &nbsp; <input type="button" class="open_close_btn" value="展开/合并"/></td><td>5</td><td>北京</td><td>1</td><td>上海顺丰</td><td>一级</td><td>销售</td><td>联想北京</td><td>联想北京</td><td>中国</td><td>北京</td><td>北京</td><td>海淀</td><td>联想西区总部</td>
+            </tr>
+            <tr>
+                <td class="inner_td" colspan="15">
+                    <table class="inner_table">
+                        <thead>
+                        <tr>
+                            <th><input type="checkbox" class="item_title" name="item_title2"></th><th>出库通知单号</th><th>备件编码</th><th>备件名称</th><th>数量</th><th>序列化</th><th>库位1</th><th>库位2</th><th>库位3</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><input type="checkbox" mergeId="2" name="item"></td><td>GI201801030002</td><td>DIANCHOUWAIQUAN</td><td>RAID 6 Primary-min 4 HDD's required</td><td>3</td><td>Y</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" mergeId="2" name="item"></td><td>GI201801030002</td><td>DIANCHOUWAIQUAN</td><td>RAID 6 Primary-min 4 HDD's required</td><td>3</td><td>Y</td><td></td><td></td><td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="main" name="main3"></td><td>合并并备料 &nbsp; <input type="button" class="open_close_btn" value="展开/合并"/></td><td>5</td><td>北京</td><td>1</td><td>上海顺丰</td><td>一级</td><td>销售</td><td>联想北京</td><td>联想北京</td><td>中国</td><td>北京</td><td>北京</td><td>海淀</td><td>联想西区总部</td>
+            </tr>
+            <tr>
+                <td class="inner_td" colspan="15">
+                    <table class="inner_table">
+                        <thead>
+                        <tr>
+                            <th><input type="checkbox" class="item_title" name="item_title3"></th><th>出库通知单号</th><th>备件编码</th><th>备件名称</th><th>数量</th><th>序列化</th><th>库位1</th><th>库位2</th><th>库位3</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><input type="checkbox" mergeId="3" name="item"></td><td>GI201801030002</td><td>DIANCHOUWAIQUAN</td><td>RAID 6 Primary-min 4 HDD's required</td><td>3</td><td>Y</td><td></td><td></td><td></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" mergeId="3" name="item"></td><td>GI201801030002</td><td>DIANCHOUWAIQUAN</td><td>RAID 6 Primary-min 4 HDD's required</td><td>3</td><td>Y</td><td></td><td></td><td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
